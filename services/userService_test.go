@@ -16,6 +16,7 @@ func TestCreateService(t *testing.T) {
 		ID:        uid,
 		Name:      "Santiago",
 		Email:     "santiago@gmail.com",
+		Password:  "123",
 		CreatedAt: time.Now(),
 	}
 	err := CreateService(user)
